@@ -1,0 +1,22 @@
+{
+  "name": "express_nodelearning",
+  "version": "1.0.0",
+  "description": "Express is fast ,unopiniated and minimalist web framework for Node.js Express is server side or back-end framework ,it is not comparable to client side frameworks like React,Angular or Vue. It can be used in combination with  thise frameworks to build full stack applications.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "moment": "^2.29.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
